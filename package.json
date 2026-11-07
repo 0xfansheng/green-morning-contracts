@@ -1,0 +1,15 @@
+{
+  "name": "green-morning-contract-source",
+  "private": true,
+  "version": "4.0.0",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "verify": "node scripts/verify.mjs --onchain",
+    "build": "node scripts/verify.mjs"
+  },
+  "dependencies": {
+    "js-sha3": "0.8.0",
+    "solc": "0.8.38"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "network": "BNB Smart Chain",
+  "chainId": 56,
+  "verifiedAtBlock": 132225851,
+  "blockHash": "0xaa4ef99a07c5d44eb5a326cc7c3d3089176db51b3b099b66119b60558fa5ab36",
+  "verifiedAtUTC": "2026-11-07T15:37:17.000Z",
+  "implementationSlot": "0x360894a13ba1a3210667c828492db98dca3e2076cc3735a920a3ca505d382bbc",
+  "ownerAtBlock": "0xc430d58912be1A81408458E776A7cA259193B778",
+  "upgrade": {
+    "transaction": "0x8b7062c52d2503c29c6b8f849f7709205be2e11a88d3f09287b29ea7fe2ed526",
+    "block": 132224334,
+    "previousImplementation": "0xf111Cf7B1Eb73E9495B3dd6C821718B7F4878B87"
+  },
+  "proxyCreationTransaction": "0xc751159eefbfc80ba8b6ba10594615c5b4304e7afd61143a9a6e5b66d7e978e9",
+  "proxyCreationBlock": 132026764,
+  "implementationCreationTransaction": "0xf8a41634c6e804b7729fac8977165e864a85c5dac67983a5a2f96e2fb04f6e02",
+  "implementationCreationBlock": 132224253,
+  "compiler": "0.8.38+commit.1835d247.Emscripten.clang",
+  "contracts": {
+    "implementation": {
+      "address": "0x05105935500F39fd17127D9DC73e5157b9eb825f",
+      "source": "contracts/GreenMorningMarketingV4.sol",
+      "name": "GreenMorningMarketingV4",
+      "sourceFiles": 27,
+      "creationCodeKeccak256": "0xdefbb28c031d2bcde45af9d2a9aa0eb1aca134a134d46a6bb406c1596f755ece",
+      "runtimeKeccak256": "0xf0999809fc34a1cd8257d695fdb456589cc6301e4c0111cc919982bd64d02a8d",
+      "runtimeBytes": 24283,
+      "sourceSHA256": "50655364f6e77cdeb3adf2b252359fe5bb2766e5a410f5d8730ecb86ac2fd65d"
+    },
+    "proxy": {
+      "address": "0xf8fb136143E40D1DeC963D5234FB7efCE8B01eC7",
+      "source": "@openzeppelin/contracts/proxy/ERC1967/ERC1967Proxy.sol",
+      "name": "ERC1967Proxy",
+      "sourceFiles": 9,
+      "creationCodeKeccak256": "0x45d1f0096e786b9e8cbb953e0755f601551467da25a1c51fb7503832cfeb3b96",
+      "runtimeKeccak256": "0x0700d6bc31fad9a4dc2495d4427c22ce204c0b96c76e9eff006a4e1d631d2aa0",
+      "runtimeBytes": 163,
+      "constructorArgs": "0x000000000000000000000000b36206acaeacd7dbe166e5595598ea9048eb0b46000000000000000000000000000000000000000000000000000000000000004000000000000000000000000000000000000000000000000000000000000000c4a67265b1000000000000000000000000c430d58912be1a81408458e776a7ca259193b77800000000000000000000000010ed43c718714eb63d5aa57b78b54704e256024e00000000000000000000000060b9262456de011f7d15a54cdd8c48baaa8b022f000000000000000000000000149d5c8ee077f837d353f637523d9e5710febb99000000000000000000000000000000000000000000084595161401484a0000000000000000000000000000000000000000000000002ff9fa4cda6dd67a00000000000000000000000000000000000000000000000000000000000000",
+      "initialImplementation": "0xB36206aCAEAcd7dBE166e5595598ea9048eB0B46"
+    }
+  }
+}
